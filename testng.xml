@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods">
+    <test name="Tests">
+        <classes>
+            <class name="com.ibm.pom.tests.AlertsTest" />
+        </classes>
+    </test>
+</suite>
