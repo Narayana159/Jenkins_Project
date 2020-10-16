@@ -15,7 +15,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setup() {
 		// Create a new FirefoxDriver. All our test classes will use this.
-		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\drivers\\geckodriver.exe");
 		firefoxBinary = new FirefoxBinary();
 		firefoxBinary.addCommandLineOptions("--headless");
 		firefoxOptions = new FirefoxOptions();
